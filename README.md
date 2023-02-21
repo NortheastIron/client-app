@@ -1,5 +1,9 @@
 yarn create react-app --template typescript .
 
+1) отрисовать чат и поместить в компоненту
+
+
+
 
 # Getting Started with Create React App
 

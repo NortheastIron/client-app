@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
 
+import ChatComp from "./components/ChatComp";
+
 function App() {
   return (
-    <div className="App">
-
+    <div className="main">
+      <ChatComp />
     </div>
   );
 }
