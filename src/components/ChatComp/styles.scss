@@ -1,0 +1,49 @@
+.chat-comp {
+  width: 800px;
+  height: 500px;
+  border: 5px solid #000;
+  padding: 5px;
+  position: relative;
+
+  &__item {
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    height: 50px;
+    width: 100%;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: space-between;
+
+    &__from {
+      align-self: flex-start;
+    }
+
+    &__to {
+      align-self: flex-end;
+    }
+  }
+
+  &__text-area {
+    border: 2px solid #000;
+    position: absolute;
+    bottom: 5px;
+    width: 795px;
+    height: 100px;
+
+    textarea {
+      border: none;
+      outline: none;
+      resize: none;
+      width: 90%;
+      height: 100%;
+    }
+
+    button {
+      height: 100%;
+      width: 10%;
+      position: absolute;
+      right: 0;
+      cursor: pointer;
+    }
+  }
+}

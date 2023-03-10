@@ -1,5 +1,5 @@
 yarn create react-app --template typescript .
-
+yarn add node-sass
 1) отрисовать чат и поместить в компоненту
 
 
